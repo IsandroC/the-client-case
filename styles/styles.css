@@ -4,8 +4,8 @@
 }
 
 nav {
-  padding-left: 80px;
-  padding-right: 10px;
+  padding-left: 4rem;
+  padding-right: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,48 +18,55 @@ ul {
 .nav-items {
   list-style: none;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .nav-item .account-icon {
-  padding: 10px 10px;
-  margin: 20px 20px;
+  padding: 0.5rem 0.5rem;
+  margin: 1rem 1rem;
 }
 
 .nav-item a {
   display: inline-block;
-  padding: 15px 15px;
-  margin: 25px 25px;
+  padding: 0.75rem 0.75rem;
+  margin: 1.25rem 1.25rem;
   color: #090940;
 }
 
 header > p {
   background-color: #31439c;
   color: white;
-  margin-bottom: 0;
+  margin: 0rem -0.5rem 0rem -0.5rem;
+  padding-left: 7rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 .navbar2 {
   background-color: #f9f8f8;
+  margin: 0rem -0.5rem 0rem -0.5rem;
 }
 
 .nav2-items {
   list-style: none;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .nav2-item a {
   display: inline-block;
-  padding: 15px 15px;
-  margin: 25px 25px;
-  color: #090940;
+  padding: 0.75rem 0.75rem;
+  margin: 1.25rem 1.25rem;
+  color: #31439c;
 }
 
 .reageer-button, .upload-button{
   background-color: #31439c;
   color: white;
   border: none;
+  padding: 0.5rem;
+  padding-right: 4rem;
+  margin: 2rem -2rem 0rem 4rem;
 }
 
 .vorige-button, .volgende-button {
@@ -71,6 +78,13 @@ header > p {
 h1 {
   font-size: 63.15px;
   font-weight: 800;
+  color: #090940;
+}
+
+h2 {
+  font-size: 47.37px;
+  font-weight: 800;
+  color: #090940;
 }
 
 .navbar2 > h1 {
@@ -79,8 +93,22 @@ h1 {
 
 .image-slider{
   display: flex;
+  padding-left: 4rem;
 }
 
 button:hover {
   cursor: pointer;
+}
+
+.image-slider > img {
+  height: 32rem;
+  width: 48rem;
+}
+
+.image-slider > article {
+  padding-left: 4rem;
+}
+
+article > h2 {
+  margin: 0;
 }
