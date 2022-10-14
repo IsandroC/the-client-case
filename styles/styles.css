@@ -73,6 +73,7 @@ header > p {
   background-color: #f96c4f;
   color: white;
   border: none;
+  height: 32rem;
 }
 
 h1 {
@@ -105,10 +106,7 @@ button:hover {
   width: 48rem;
 }
 
-.image-slider > article {
-  padding-left: 4rem;
-}
-
 article > h2 {
   margin: 0;
+  padding-left: 4rem;
 }
