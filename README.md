@@ -10,6 +10,8 @@ Visual Thinking Platform voor het HBO
 
 ## Beschrijving
 Voor deze opdracht was het de bedoeling om een platform te bouwen waar geleerd en gebruik kan worden gemaakt van visual thinking in het HBO. Mijn taak was om de een oplossing te vinden voor studenten die graag voorbeelden van de tekenmethodes willen inzien. Dat is gelukt en dat ziet er nu als volgt uit.
+![image](https://user-images.githubusercontent.com/112857131/195797301-d102c7ed-a8e0-43f8-82f2-b04d12eebea2.png)
+
 
 
 ## Kenmerken
